@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Adamović Slobodan</title>
+    <meta
+      name="description"
+      content="Adamović Slobodan - Frontend developer creating meticulously crafted, captivating, and user-friendly digital experiences. Explore my portfolio, experiences, and projects."
+    />
+  </head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <body>
+    <div class="page-container">
+      <div class="page-container-content">
+        <!-- HEADER -->
+        <header class="header">
+          <div>
+            <h1>Adamović Slobodan</h1>
+            <h2>Frontend developer</h2>
+            <p>
+              I build pixel-perfect, engaging, user-friendly digital
+              experiences.
+            </p>
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="#about">
+                    <span class="nav-indicatior"></span>
+                    <span>about</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#experiences">
+                    <span class="nav-indicatior"></span>
+                    <span>experience</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects">
+                    <span class="nav-indicatior"></span>
+                    <span>projects</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="social-media">
+            <li>
+              <a href="https://github.com/adamovic6666" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/adamovic-slobodan-5134961b1/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/adamovic_slobodan666/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1000 1000"
+                  fill="currentColor"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="./cv.lnk" download target="_blank">
+                <svg
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:adamovicslobodan@yahoo.com" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 -2.5 20 20"
+                  version="1.1"
+                >
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-300.000000, -922.000000)"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M262,764.291 L254,771.318 L246,764.281 L246,764 L262,764 L262,764.291 Z M246,775 L246,766.945 L254,773.98 L262,766.953 L262,775 L246,775 Z M244,777 L264,777 L264,762 L244,762 L244,777 Z"
+                          id="email-[#1573]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <!-- MAIN -->
+        <main class="main-content">
+          <section id="about">
+            <h2>About</h2>
+            <p>
+              In 2020, I made a pivotal decision to shift my career from tourism
+              to tech. My journey began with exploring <span>HTML</span>,
+              <span>CSS</span>, and the notorious boogeyman,
+              <span>JavaScript</span>. Despite the challenges, I quickly
+              discovered my passion for web development and decided to fully
+              commit to it. It wasn’t easy, but it was incredibly rewarding.
+            </p>
+            <p>
+              These days, with a strong background in frontend development, I
+              specialize in building modern, scalable web applications using
+              <span>React</span> and <span>NextJs</span>. I’ve had the
+              opportunity to lead a talented team on key projects and mentor
+              high school students on Git and development practices. I’m
+              passionate about delivering clean, efficient code and excited to
+              apply my technical skills to new challenges.
+            </p>
+            <p>
+              When I’m not at the computer, you’ll find me cooking, hiking,
+              playing table tennis, strumming the guitar, or learning about
+              bees.
+            </p>
+          </section>
+          <section id="experiences">
+            <h2>Experience</h2>
+            <div>
+              <ol>
+                <a href="https://www.studiopresent.com/" target="_blank">
+                  <li class="experience">
+                    <div class="absolute"></div>
+                    <header>mar 2024 - oct 2024</header>
+                    <div class="experiences-details">
+                      <h3>Frontend lead developer &nbsp;@ Studio Present</h3>
+                      <p>
+                        As a <span>Frontend Lead Developer</span>, I took
+                        responsibility for organizing weekly meetings focused on
+                        discussing best coding practices, ensuring adherence to
+                        a consistent code style, and offering both guidance and
+                        encouragement to the team. I spearheaded the development
+                        of a new Drupal theme, which integrates all modern CSS
+                        techniques for 2024 like fluid typography, latest
+                        selectors, css layers etc.
+                      </p>
+                      <ul class="technologies-used">
+                        <span>NextJs</span>
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>SCSS</span>
+                        <span>Drupal</span>
+                        <span>Gulp</span>
+                      </ul>
+                    </div>
+                  </li>
+                </a>
+                <a href="https://www.studiopresent.com/" target="_blank">
+                  <li class="experience">
+                    <div class="absolute"></div>
+                    <header>dec 2022 - mar 2024</header>
+                    <div class="experiences-details">
+                      <h3>Frontend developer &nbsp;@ Studio Present</h3>
+                      <p>
+                        During this period of time, I specialized in building
+                        modern web apps using React and Next.js, sharpening my
+                        skills through practical experience.
+                        <span>
+                          I led the HeiExperts project as both the Project Lead
+                          and Team Lead
+                        </span>
+                        , collaborating with Heidelberg University and its
+                        clients. In the <span>Nature.digital</span> project, I
+                        primarily worked on complex search mechanisms, filters,
+                        sliders, map functionalities, and intricate state
+                        management, further refining my expertise in Next.js and
+                        React.
+                      </p>
+                      <ul class="technologies-used">
+                        <span>NextJs</span>
+                        <span>React</span>
+                        <span>TypeSCript</span>
+                        <span>JavaScript</span>
+                        <span>Strapi</span>
+                        <span>GraphQl</span>
+                        <span>DeckGl</span>
+                        <span>SCSS</span>
+                      </ul>
+                    </div>
+                  </li>
+                </a>
+                <a href="https://www.vyntex.com/" target="_blank">
+                  <li class="experience">
+                    <div class="absolute"></div>
+                    <header>apr 2021 - oct 2022</header>
+                    <div class="experiences-details">
+                      <h3>Frontend developer &nbsp;@ Vyntex DOO</h3>
+                      <p>
+                        I began my frontend development journey at a company
+                        that initially focused on Webflow projects. My role
+                        involved enhancing Webflow sites with custom JavaScript
+                        functions, turning them into more interactive, app-like
+                        experiences, as seen in the <span>Homm</span> project.
+                        As the company transitioned to Next.js projects, I
+                        embraced the opportunity and gained significant
+                        experience, marking my true start with the framework.
+                      </p>
+                      <ul class="technologies-used">
+                        <span>NextJs</span>
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>Webflow</span>
+                        <span>HTML & CSS</span>
+                      </ul>
+                    </div>
+                  </li>
+                </a>
+              </ol>
+            </div>
+          </section>
+          <section id="projects">
+            <ul>
+              <a
+                href="https://heiexperts.stage.studiopresent.cloud/"
+                target="_blank"
+              >
+                <li class="project">
+                  <div class="absolute"></div>
+                  <header>
+                    <img
+                      src="./heidelberg.jpg"
+                      alt="heiexperts-project"
+                      class="project-image"
+                    />
+                  </header>
+                  <div>
+                    <div class="project-details">
+                      <h3>HeiExperts</h3>
+                      <p>
+                        The HeiExpert project is a Next.js application powered
+                        by Strapi, designed to connect students with experts
+                        from Heidelberg University. Each user can create a
+                        profile, while students benefit from an advanced search
+                        and filtering system, complete with tags, to find
+                        professors or experts who can assist with specific
+                        academic challenges.
+                      </p>
+                      <ul class="technologies-used">
+                        <span>NextJs</span>
+                        <span>TypeScript</span>
+                        <span>SCSS</span>
+                        <span>Strapi</span>
+                        <span>GraphQL</span>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a
+                href="https://web.naturedigital.stage.studiopresent.cloud/search"
+                target="_blank"
+              >
+                <li class="project">
+                  <div class="absolute"></div>
+                  <header>
+                    <img
+                      src="./nature-digital.png"
+                      alt="nature-digital-project"
+                      class="project-image"
+                    />
+                  </header>
+                  <div class="project-details">
+                    <h3>Nature.digital</h3>
+                    <p>
+                      Nature.digital is an app that helps users explore paths,
+                      plants, and animals across Bavaria. Published by the
+                      Bavarian State Government, it offers expert knowledge for
+                      nature enthusiasts. Key features include a Lexicon for
+                      listing routes, POIs, animals, and habitats, an Advanced
+                      Search for detailed wildlife information, and rich media
+                      integration with sound, videos, and images. The app also
+                      supports multiple map views-vector, satellite, and
+                      spatial-enhancing the user experience.
+                    </p>
+                    <ul class="technologies-used">
+                      <span>NextJs</span>
+                      <span>TypeScript</span>
+                      <span>SCSS</span>
+                      <span>MongoDB</span>
+                    </ul>
+                  </div>
+                </li>
+              </a>
+              <a href="https://elter.hu/" target="_blank">
+                <li class="project">
+                  <div class="absolute"></div>
+                  <header>
+                    <img
+                      src="./elter.png"
+                      alt="elter-project"
+                      class="project-image"
+                    />
+                  </header>
+                  <div class="project-details">
+                    <h3>Elter</h3>
+                    <p>
+                      This project is for a leading Hungarian family business in
+                      the lighting retail industry, with over 30 years of
+                      experience and multiple stores across the country, along
+                      with a high-end online store. It uses React components to
+                      enhance the product catalog sections, significantly
+                      improving the site's performance.
+                    </p>
+                    <ul class="technologies-used">
+                      <span>React</span>
+                      <span>SCSS</span>
+                      <span>Drupal</span>
+                      <span>GraphQL</span>
+                    </ul>
+                  </div>
+                </li>
+              </a>
+              <a href="https://wiki.smartpierre.com/" target="_blank">
+                <li class="project">
+                  <div class="absolute"></div>
+                  <header>
+                    <img
+                      src="./pierre-wiki.png"
+                      alt="elter-project"
+                      class="project-image"
+                    />
+                  </header>
+                  <div class="project-details">
+                    <h3>Pierre wiki</h3>
+                    <p>
+                      PIERRE Wiki is a centralized knowledge hub designed to
+                      assist official partners in distributing products more
+                      efficiently. The platform features an intelligent chat
+                      interface that provides tailored solutions to customer
+                      pain points. It is interactive, allowing users to give
+                      feedback, which helps the system learn and improve its
+                      responses over time. My team and I developed the frontend
+                      theme, incorporating custom JavaScript, while Drupal
+                      serves as the backend.
+                    </p>
+                    <ul class="technologies-used">
+                      <span>Drupal</span>
+                      <span>JavaScript</span>
+                      <span>SCSS</span>
+                    </ul>
+                  </div>
+                </li>
+              </a>
+              <a href="https://www.hommhotels.com/" target="_blank">
+                <li class="project">
+                  <div class="absolute"></div>
+                  <header>
+                    <img
+                      src="./homm.png"
+                      alt="elter-project"
+                      class="project-image"
+                    />
+                  </header>
+                  <div class="project-details">
+                    <h3>Homm hotels</h3>
+                    <p>
+                      I participated in creating a custom filter system for the
+                      Homm Hotels website, which is part of the Banyan Group, a
+                      global hospitality company. The filter system, built using
+                      JavaScript in a Webflow project, allows users to select
+                      dates, which are then converted into query parameters that
+                      lead to their booking system, streamlining the booking
+                      process for guests.
+                    </p>
+                    <ul class="technologies-used">
+                      <span>Webflow</span>
+                      <span>JavaScript</span>
+                      <span>CSS</span>
+                    </ul>
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+    <div id="glow"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
